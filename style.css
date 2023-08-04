@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logoCntr {
+  margin: 10px;
+}
+
+.karbonLogo {
+  width: 200px;
+}
+
+.maintenance {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintenance_contain {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+}
+.maintenance_contain img {
+  width: auto;
+  max-width: 100%;
+}
+.pp-infobox-title-prefix {
+  font-weight: 500;
+  font-size: 20px;
+  color: #222326;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pp-infobox-title-prefix {
+  font-family: sans-serif;
+}
+
+.pp-infobox-title {
+  color: #222326;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+  word-break: break-word;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+}
